@@ -10,12 +10,12 @@ int main()
         printf("Hello World\n");
     }
 
-    int aa = 2;
+    int AA = 2;
     int bb = 3;
     int cc = 5;
     int dd = 1;
 
-    int y = add(aa, bb);
+    int y = add(AA, bb);
     int z = sub(cc, dd);
     int prod = mul(aa, bb);
 
