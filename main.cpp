@@ -1,4 +1,5 @@
 #include <iostream>
+#include "utils.h"
 
 int main()
 {
@@ -8,6 +9,11 @@ int main()
     {
         printf("Hello World\n");
     }
+
+    int aa = 2;
+    int bb = 3;
+
+    int y = add(aa,bb);
     
     return 0;
 }
