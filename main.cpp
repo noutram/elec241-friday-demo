@@ -6,7 +6,6 @@ int main()
 
     // TODO - write name to screen
     for (int n = 10; n >= 0; n--)
-        ;
     {
         printf("Hello World\n");
     }
@@ -16,9 +15,9 @@ int main()
     int cc = 5;
     int dd = 1;
 
-    int y = add(aa,bb);
+    int y = add(aa, bb);
     int z = sub(cc, dd);
-    int prod = mul(aa,bb);
-    
+    int prod = mul(aa, bb);
+
     return 0;
 }
