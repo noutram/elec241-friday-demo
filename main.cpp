@@ -14,6 +14,8 @@ int main()
     int bb = 3;
 
     int y = add(aa,bb);
+
+    int prod = mul(aa,bb);
     
     return 0;
 }
