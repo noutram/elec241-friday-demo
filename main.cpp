@@ -10,6 +10,7 @@ int main()
         printf("Hello World\n");
     }
 
+
     int AA = 2;
     int bb = 3;
     int cc = 5;
@@ -17,7 +18,7 @@ int main()
 
     int y = add(AA, bb);
     int z = sub(cc, dd);
-    int prod = mul(aa, bb);
+    int prod = mul(AA, bb);
 
     return 0;
 }
